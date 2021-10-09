@@ -18,13 +18,13 @@ ds_list_destroy(_list);
 */
 
 if (keyboard_check(ord("A"))) {
-	x+=8;
+	x+=step_px;
 } else if (keyboard_check(ord("W"))) {   
-	y+=8;
+	y+=step_px;
 } else if (keyboard_check(ord("D"))) {
-	x-=8;
+	x-=step_px;
 } else if (keyboard_check(ord("S"))) {
-	y-=8;
+	y-=step_px;
 }
 
 
