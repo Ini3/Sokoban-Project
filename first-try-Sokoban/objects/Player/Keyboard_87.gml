@@ -1,5 +1,5 @@
-/// @description Insert description here
+/// @description Move up
 // You can write your code in this editor
-if(time%5==0)
+
+if (!place_meeting(x, y-step_px, Wall) && time%5==0)
 	y-=step_px;
-//vspeed=-3
