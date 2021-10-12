@@ -17,6 +17,7 @@ if _num > 0
 ds_list_destroy(_list);
 */
 
+
 if (keyboard_check(ord("A"))) {
 	x+=step_px;
 } else if (keyboard_check(ord("W"))) {   
