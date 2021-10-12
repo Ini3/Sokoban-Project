@@ -5,16 +5,20 @@
 
 // keyboard_lastchar
 
+var step_px ;
+step_px := 8;
+
+
 if (keyboard_check(ord("A")) || keyboard_check(ord("D"))) {
 	if(Player.x-x>0)
-		x=Player.x-32
+		x-=step_px;
 	else
-		x=Player.x+32
+		x+=step_px;
 } else if (keyboard_check(ord("W")) || keyboard_check(ord("S"))) {
 	if(Player.y-y>0)
-		y=Player.y-32
+		y-=step_px;
 	else
-		y=Player.y+32
+		y+=step_px;
 }
 
 
