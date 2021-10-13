@@ -13,7 +13,7 @@ instance_change(DoneBox, true);
 
 i++;//check the goal 
 
-
+//show_message_async(string(i));
 
 
 

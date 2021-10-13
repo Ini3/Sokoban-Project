@@ -4,4 +4,7 @@
 
 globalvar goal_num;
 goal_num = instance_number(Goal);
-show_message_async(string(goal_num));
+
+globalvar i;
+i=0;
+//show_message_async(string(goal_num);
