@@ -52,8 +52,7 @@ for (var i = 0; i < goal_num; ++i;){
 		}
 	
 	}
-	
-	room_goto_next();
+
 }
 
 
