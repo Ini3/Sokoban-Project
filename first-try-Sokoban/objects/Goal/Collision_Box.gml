@@ -41,7 +41,19 @@ for (var i = 0; i < goal_num; ++i;){
 	else
 		{goal_id[i].boxed=false;log+="false\n"}
 	
-	if(done==goal_num) room_goto_next();
+	if(done==goal_num){
+		var room_name;
+		room_name=room_get_name(room);
+		if(room_name == "Room3"){
+			game_end();
+		}
+		else{
+			room_goto_next();
+		}
+	
+	}
+	
+	room_goto_next();
 }
 
 
