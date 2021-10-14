@@ -21,9 +21,6 @@ goal_ID = instance_nearest(Box.x, Box.y, Goal);
 if(goal_num := i){
 	room_goto_next();
 }*/
-
-
-
 /*
 with(goal_ID)
 {
