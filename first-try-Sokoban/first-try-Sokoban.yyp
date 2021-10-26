@@ -23,6 +23,7 @@
     {"id":{"name":"Initial","path":"rooms/Initial/Initial.yy",},"order":3,},
     {"id":{"name":"Selected","path":"sprites/Selected/Selected.yy",},"order":3,},
     {"id":{"name":"Sprite4","path":"sprites/Sprite4/Sprite4.yy",},"order":2,},
+    {"id":{"name":"Star","path":"sprites/Star/Star.yy",},"order":7,},
     {"id":{"name":"WASD","path":"sprites/WASD/WASD.yy",},"order":2,},
     {"id":{"name":"Box","path":"objects/Box/Box.yy",},"order":2,},
     {"id":{"name":"Level1","path":"sprites/Level1/Level1.yy",},"order":2,},
