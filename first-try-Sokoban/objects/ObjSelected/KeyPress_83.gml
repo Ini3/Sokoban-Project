@@ -3,7 +3,7 @@
 
 position++;
 
-if(position>3){
+if(position>4){
 	position=1;
 }
 
@@ -26,6 +26,11 @@ switch(position) {
 		//show_message_async("swith : " + string(position));
 		x= ObjLv3.x -10;
 		y= ObjLv3.y - 10;
+		break;
+	case 4: 
+	//show_message_async("swith : " + string(position));
+		x= ObjLv4.x -10;
+		y= ObjLv4.y - 10;
 		break;
 	
 }

@@ -13,4 +13,7 @@ switch(position) {
 	case 3: 
 		room_goto(Room3);
 		break;
+	case 4: 
+		room_goto(Room4);
+		break;
 }
