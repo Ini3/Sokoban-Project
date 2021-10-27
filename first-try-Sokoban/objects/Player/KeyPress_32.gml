@@ -6,7 +6,7 @@
 
 var room_name;
 room_name=room_get_name(room);
-if(room_name == "Room3"){
+if(room_name == "Room4"){
 	game_end();
 }
 else{
@@ -21,3 +21,5 @@ try {
 	game_end();
 }
 */
+
+
