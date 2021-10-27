@@ -10,7 +10,6 @@ if(position>4){
 //show_message_async(position);
 
 
-
 switch(position) {
 	case 1: 
 		//show_message_async("switch : " + string(position));
@@ -32,5 +31,4 @@ switch(position) {
 		x= ObjLv4.x -10;
 		y= ObjLv4.y - 10;
 		break;
-	
 }

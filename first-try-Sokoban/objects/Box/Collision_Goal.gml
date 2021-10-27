@@ -14,4 +14,4 @@ b=id;
 		object_set_sprite(Box, Sprite7);
 	//show_message("asdfasdf");
 	}
-	/*
+/*
